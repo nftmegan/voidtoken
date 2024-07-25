@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: 'FacsimileLL';
+	font-style: regular;
+	font-weight: 400;
+	src: url('/fonts/FacsimileLL.ttf') format('truetype');
+  }
+
 html,
 body {
   padding: 0;

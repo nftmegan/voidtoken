@@ -1,37 +1,38 @@
 {
   "../../node_modules/@solana/wallet-adapter-blocto/lib/esm/adapter.js -> @blocto/sdk": {
-    "id": null,
-    "files": []
+    "id": "../../node_modules/@solana/wallet-adapter-blocto/lib/esm/adapter.js -> @blocto/sdk",
+    "files": [
+      "static/chunks/node_modules_blocto_sdk_dist_blocto-sdk_umd_js.js"
+    ]
   },
   "../../node_modules/@solana/wallet-adapter-ledger/lib/esm/adapter.js -> @ledgerhq/hw-transport-webhid": {
-    "id": null,
-    "files": []
+    "id": "../../node_modules/@solana/wallet-adapter-ledger/lib/esm/adapter.js -> @ledgerhq/hw-transport-webhid",
+    "files": [
+      "static/chunks/node_modules_ledgerhq_hw-transport-webhid_lib-es_TransportWebHID_js.js"
+    ]
   },
   "../../node_modules/@solana/wallet-adapter-solflare/lib/esm/adapter.js -> @solflare-wallet/sdk": {
-    "id": 100,
+    "id": "../../node_modules/@solana/wallet-adapter-solflare/lib/esm/adapter.js -> @solflare-wallet/sdk",
     "files": [
-      "static/chunks/100.bee7fcea3f9dac4b.js"
+      "static/chunks/node_modules_solflare-wallet_sdk_lib_esm_index_js.js"
     ]
   },
   "../../node_modules/@solana/wallet-adapter-sollet/lib/esm/base.js -> @project-serum/sol-wallet-adapter": {
-    "id": 6770,
+    "id": "../../node_modules/@solana/wallet-adapter-sollet/lib/esm/base.js -> @project-serum/sol-wallet-adapter",
     "files": [
-      "static/chunks/770.bf6a4c2f73d5e578.js"
+      "static/chunks/node_modules_project-serum_sol-wallet-adapter_dist_esm_index_js.js"
     ]
   },
   "../../node_modules/@solana/wallet-adapter-torus/lib/esm/adapter.js -> @toruslabs/solana-embed": {
-    "id": 4604,
+    "id": "../../node_modules/@solana/wallet-adapter-torus/lib/esm/adapter.js -> @toruslabs/solana-embed",
     "files": [
-      "static/chunks/29107295.fbcfe2172188e46f.js",
-      "static/chunks/01faf37a.857f3369163f0281.js",
-      "static/chunks/674.3b54ea5cd0e8bf28.js",
-      "static/chunks/250.5c05327e4efbd2af.js"
+      "static/chunks/node_modules_toruslabs_solana-embed_dist_solanaEmbed_esm_js.js"
     ]
   },
   "../contexts/ContextProvider.tsx -> @solana/wallet-adapter-react-ui": {
-    "id": 3662,
+    "id": "../contexts/ContextProvider.tsx -> @solana/wallet-adapter-react-ui",
     "files": [
-      "static/chunks/928.8238f643874ac706.js"
+      "static/chunks/node_modules_solana_wallet-adapter-react-ui_lib_esm_index_js.js"
     ]
   }
 }

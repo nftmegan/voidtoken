@@ -28,7 +28,7 @@ export const HomeView: FC = ({ }) => {
 
 	return (
 		<div className="flex items-center justify-center h-screen">
-			<p>COMING SOON...</p>
+			<p className="font-Facsimile text-2xl">COMING SOON...</p>
 		</div>
   	);
 };

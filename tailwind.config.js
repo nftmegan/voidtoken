@@ -3,7 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "media",
   theme: {
-    extend: {},
+    extend: {
+		fontFamily: {
+			Facsimile: ['FacsimileLL', 'sans-serif'],
+		},
+	},
   },
   plugins: [
     require("@tailwindcss/typography"),
