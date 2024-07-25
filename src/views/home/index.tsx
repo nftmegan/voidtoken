@@ -27,8 +27,9 @@ export const HomeView: FC = ({ }) => {
 	}, [wallet.publicKey, connection, getUserSOLBalance])
 
 	return (
-		<div className="flex items-center justify-center h-screen">
-			<p className="font-Facsimile text-2xl">COMING SOON...</p>
+		<div className="flex items-center flex flex-col space-y-8">
+			<p className="font-Facsimile text-xl pt-16">/._into.the.void.of.nothing_.\</p>
+			<p className="font-Facsimile text-4xl">COMING SOON...</p>
 		</div>
   	);
 };
