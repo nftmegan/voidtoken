@@ -18,7 +18,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 			</Head>
 
 			<ContextProvider>
-            	<div className="flex flex-col h-screen bg-bgtxt bg-repeat bg-center">
+            	<div className="flex flex-col h-screen backdrop-blur-sm bg-bgtxt bg-repeat bg-center ">
 					<Notifications />
 					<AppBar/>
 					<ContentContainer>

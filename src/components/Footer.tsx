@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Footer: FC = () => {
     return (
         <div className="">
-            <footer className="mx-auto  flex flex-row p-2 text-center items-center footer text-neutral-content py-4 bg-black bg-opacity-30">
+            <footer className="mx-auto  flex flex-row p-2 text-center items-center footer text-neutral-content py-4 bg-black bg-opacity-20">
                 <div className="pl-8 text-2xl">
 					<div className="gap-4 text-center flex">
 						<Link href="https://x.com/voidtokensol">
