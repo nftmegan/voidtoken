@@ -13,20 +13,20 @@ require('../styles/globals.css');
 const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
-          <Head>
-            <title>Solana Scaffold Lite</title>
-          </Head>
+			<Head>
+				<title>VOID OF NOTHING</title>
+			</Head>
 
-          <ContextProvider>
-            <div className="flex flex-col h-screen">
-              <Notifications />
-              <AppBar/>
-              <ContentContainer>
-                <Component {...pageProps} />
-              </ContentContainer>
-              <Footer/>
-            </div>
-          </ContextProvider>
+			<ContextProvider>
+            	<div className="flex flex-col h-screen bg-bgtxt bg-repeat bg-center">
+					<Notifications />
+					<AppBar/>
+					<ContentContainer>
+						<Component {...pageProps} />
+					</ContentContainer>
+					<Footer/>
+			 	</div>
+          	</ContextProvider>
         </>
     );
 };

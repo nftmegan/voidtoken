@@ -8,10 +8,10 @@ export const AppBar: FC = props => {
   const { autoConnect, setAutoConnect } = useAutoConnect();
 
   return (
-    <div>
+    <div className="">
 
       {/* NavBar / Header */}
-      <div className="navbar flex flex-row md:mb-2 shadow-lg bg-neutral text-neutral-content">
+      <div className="navbar flex flex-row md:mb-2 shadow-lg text-neutral-content bg-black bg-opacity-30">
         <div className="navbar-start">
 			<div className="md:hidden">
 				<label htmlFor="my-drawer" className="btn btn-square btn-ghost">
@@ -22,8 +22,10 @@ export const AppBar: FC = props => {
 				</label>
 			</div>
 			
-			<div className="w-22 h-22 md:p-2 text-xl">
-				/.VOID
+			<div className="w-22 h-22 md:p-2 text-2xl">
+				<div className="pl-5">
+					/.VOID
+				</div>
 			</div>
         </div>
 

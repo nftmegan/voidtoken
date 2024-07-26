@@ -7,6 +7,9 @@ module.exports = {
 		fontFamily: {
 			Facsimile: ['FacsimileLL', 'sans-serif'],
 		},
+		backgroundImage: {
+			'bgtxt': "url('/images/bg_texture.jpg')", // Replace with your actual image path
+		}
 	},
   },
   plugins: [
