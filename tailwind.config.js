@@ -9,7 +9,10 @@ module.exports = {
 		},
 		backgroundImage: {
 			'bgtxt': "url('/images/bg_texture.jpg')", // Replace with your actual image path
-		}
+		},
+		colors: {
+			'airdropBtnColor': '#191919',
+		},
 	},
   },
   plugins: [
